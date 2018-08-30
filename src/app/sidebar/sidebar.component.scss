@@ -1,0 +1,23 @@
+/*
+Sidebar styles
+*/
+
+@import '~src/sass/base/_base.scss';
+
+ul.sidebar-list {
+    display: contents;
+    color: $secondary-color-light;
+    &>li {
+        display: flex;
+        padding: 1rem;
+        justify-content: center;
+        list-style-type: none;
+@import '~src/sass/base/_base.scss';
+        border-bottom: 1px solid gray;
+        transition: all .2s;
+        &:hover {
+            background: $secondary-color-light;
+            color: black;
+        }
+    }
+}
